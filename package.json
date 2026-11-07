@@ -1,0 +1,25 @@
+{
+  "name": "medley",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "vite build",
+    "start": "NODE_ENV=production node server/index.js",
+    "test": "node --test",
+    "test:browser": "node scripts/browser-smoke.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "express": "4.22.3",
+    "lucide-react": "0.468.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "undici": "7.30.2",
+    "vite": "6.4.5"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}
